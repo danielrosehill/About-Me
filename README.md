@@ -1,23 +1,49 @@
-# About-Me
-
 ## Tech & AI
 
-I'm enormously interested in exploring the many ways in which large language models can provide utility to everyday use cases (boring intro, I know, but let me warm up). 
+I'm enormously interested in exploring the many ways in which large language models can provide utility to everyday use cases (boring intro, I know, but let me warm up).
 
-My fascination with AI and LLMs took off in approximately February 2024 when ChatGPT wrote a Home Assistant YAML configuration and to my amazement it worked flawlessly on the first run.  Watching lights turn off in a sequence that a computer had successfully programmed on its own was both a lightbulb moment for me in a literal sense (pun intended!) and a breakthrough so exciting that I spent the night wondering what else they could do (beyond chat and generate funny images).
+### The Initial Spark: A Home Automation Success
 
-My fascination with AI so far has unfolded quite naturally in a series of evolutions. 
+My fascination with AI and LLMs took off in approximately February 2024 when ChatGPT wrote a Home Assistant YAML configuration and, to my amazement, it worked flawlessly on the first run *(I mean, it could have turned the TV off and I would have been pretty impressed)*.
 
-Having discovered that with some careful prompt engineering even chat interfaces could yield much value, the digital prepper in me kicked into overdrive and I began thinking about how these "outputs" (completions) could be preserved and organised so that they don't vanish into the digital either (output storage remains, sadly, a much neglected topic!)
+Watching lights turn off in a sequence that a *computer* had successfully programmed without much more intervention than me asking for help as if I were talking to a highly competent and always-available coding sidekick was both a lightbulb moment (in a literal sense!) and a breakthrough so exciting that I spent the night wondering what else this amazing advance in technology could offer.
 
-Building my own modest CRUD interface to store these outputs then led to the second realisation: while numbers and statistical models are what's happening under the bonnet, text is the layer at which humans provide information to LLMs and get information back from them. Curating it is key to leveraging it to maximal effect. 
+## Interest in: Curating LLM Outputs & AI-Derived Knowledge Development
 
-An unintended benefit of my careful curating of outputs was discovering that those same outputs could be mined for contextual data and then reintroduced in subsequent interactions.  This, in turn, stimulated an interest in how best to go about managing small pieces of contextual data to optimize that process. 
+My fascination with AI so far has unfolded quite naturally in a series of evolutions.
 
- One of my experiments-in-progress is a multi-agent system for proactively developing contextual data. The mechanics are simple: 
+### From Output to Insight: The Value of Preservation
 
-This laid the groundwork for exploring RAG and context management. 
+Having discovered that with some careful prompt engineering even chat interfaces could yield staggering insight and value (sometimes!), the digital prepper in me kicked into overdrive and I began thinking about how these "outputs" (completions) could be preserved and organised so that they don't vanish into the digital ether (output storage remains, sadly, a much neglected topic!).
 
- Among the datasets which I've shared on Hugging face-to-date is a sprawling array of about 600 system prompts distilled from a library of close on a thousand. Writing system prompts to me is the kernel of why I find AI so engrossing: it's given creatives, who find most earnest expression in natural language, a way to relate to technology not in code but in the way that comes most natural to them. 
+Building my own modest CRUD interface to store these outputs ("Output Hub"!) then led to the second realisation (1): while numbers and statistical models are what's happening under the bonnet, text is the layer at which humans provide information to LLMs and get information back from them. Curating it is key to leveraging it to maximal effect.
 
-It's made our exploration of technology less constrictive and it's an amazing new change unfolding.
+### Contextual Data Mining: Building a Personal "Context Repo"
+
+An unintended benefit of my careful curating of outputs was discovering that those same outputs could be mined for contextual data and then reintroduced in subsequent interactions. My boring but demonstrative example is a five-line markdown file laying out the key details of my OS and hardware which can single-handedly do everything from make highly useful recommendations for local models to run to help me pick out a hardware upgrade without the component checking.
+
+I developed an interest in the idea of deliberately and selectively curating a repository of personal information about oneself (like a few others toying around with the idea, I gravitated, naturally, to the language of "context repo").
+
+### The Deep Challenge of Contextual AI
+
+Imagining how a "context repo" can be developed is a work in progress and by no means an easy thing to envision. Inevitably it leads to rather stark realisations about life: without contextual awareness and memory, human life would be meaningless!
+
+Our very cognition is a byproduct of the passage of innumerable memories, thoughts, and feelings, and without the context of our lives determining the value of information to us, the sea-tide of information surrounding us is an irrelevance (because it is bereft of *meaning*).
+
+Our life's "context," moreover, is in a constant state of flux. In the drab terms of database systems, it might be described as an immensely nodal network of data with a constant level of file operations that defy the type of technical architectures we have at our disposal today. So, I think it's no exaggeration to say that the technical challenge of how best to reflect this in the type of AI systems that will be needed to develop transformative and personal experiences tomorrow is significant, worthwhile, and hugely important to how humans will best harness the technology.
+
+### Experiments in Contextual Data Generation: Multi-Agent Systems
+
+On a more ground level:
+
+One of my experiments-in-progress is a multi-agent system for proactively developing contextual data. The mechanics are simple: One agent interviews you. The other tries to distill it to the contextual clues. Finally, it's factorized in a context database. I don't view this as the ultimate solution or direction that personalized AI systems will take, but it is proving an interesting experiment in how one might go about kick-starting a personal RAG system of sorts.
+
+### By Abstracting The Mundane Details Of Technology, AI Allows Creativity To Flourish
+
+My favorite part of exploring AI at the moment, however, is actually the perhaps unloved art of writing system prompts: The configurations that take the final product of the LLM produced by the vendor and imbue it with subtle or definitive direction, personality, and nuance.
+
+System prompt writing for me exemplifies how generative AI tools have provided creatives with access to technology in a way that is transformative and wonderful. It allows us to think beyond the mechanics of how API calls can be orchestrated, or how context can be best stored, and what kind of database. It allows our minds to think freely about how humans can leverage intelligent computers to improve not only their lives, but the world around them and their relationships with others. I've written a collection of over 700 system prompts to date, of which more than 600, and counting, are open-sourced (here, on Hugging Face, and other nooks and crannies of the internet).
+
+### My Long-Term Vision
+
+I'm motivated by the idea and conviction that beyond the hype surrounding the latest and greatest models with reasoning powers that may lack current applicability is a less glamorous but longer-term transformation that will flourish not over individual release cycles or months but over the course of decades through the collective efforts of technologists, ethicists, creatives, thinkers, and everybody else who believes that AI is a change worth nurturing. If I can play even a microscopic role in that direction, it will be a positive contribution.
